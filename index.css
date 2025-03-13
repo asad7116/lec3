@@ -2,3 +2,34 @@ body{
     padding: 0;
     margin: 0;
 }
+/* CSS OF HEADER */
+header{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+header>p{
+    color : white;
+    font-size: 18px;
+}
+header>p>a{
+    color : white;
+    font-size: 18px;
+}
+
+header button{
+    position: absolute;
+    right: 50px;
+    background: #000000;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+/* CSS OF NAV */
+
+    
