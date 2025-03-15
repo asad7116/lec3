@@ -201,6 +201,7 @@ header button{
         height: 80%;
         
     }
+
     main .featured-products .product-box .product-text{
         display: flex;
         justify-content: space-between;
@@ -254,7 +255,7 @@ header button{
     }
     main .featured-products button{
         font-size: 18px;
-        font-weight: 600;
+        font-weight: 500;
         /* padding:15px  100px; */
         width: 218px;
         height: 52px;
