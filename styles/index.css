@@ -157,4 +157,114 @@ header button{
         align-items: center;
         padding: 2rem;
     }
-    
+    /* CSS for Featuerd product */
+
+    main .featured-products{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* padding: 2rem 0; */
+        /* margin: 0; */
+        /* width: 100%; */
+        /* border: 1px solid red; */
+        /* height: 100vh;  */
+    }
+    main .featured-products >h1{
+        font-size: 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 4rem;
+    }
+    main .featured-products .products-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        cursor: pointer;
+        /* width: 90vw; */
+        /* padding: 1.25rem 0; */
+
+    }
+    main .featured-products .products-container .product-box{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 22%;
+        height:25rem;
+        /* background: #f0f0f0; */
+        /* border: 1px solid black; */
+       
+        /* padding: 1rem; */
+    }
+    main .featured-products .product-box img{
+        width: 100%;
+        height: 80%;
+        
+    }
+    main .featured-products .product-box .product-text{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100px;
+        /* border: 1px solid red; */
+    } 
+    main .featured-products .product-box .product-text h4{
+        margin: 5px 0;
+    }
+    main .featured-products .product-box .product-text .rate-product{
+        display: flex;
+        align-items: center;
+
+    }
+    main .featured-products .product-box .product-text .rate-product>p{
+        margin: 3px 20px;
+    }
+    main .featured-products .product-box .product-text .price{
+        margin: 5px;
+        font-weight: bold;
+        
+    }
+    main .featured-products .product-box .product-text .price i{
+        margin: 5px;
+        font-weight:bold;
+        
+    }
+    main .featured-products .product-box .product-text .price>span{
+        margin: 5px 0;
+        color: grey;
+        text-decoration:line-through ;
+        
+    }
+    main .featured-products .product-box .product-text .price>span>i{
+        margin: 5px 5px;
+        color: grey;
+        text-decoration:line-through ;
+        
+    }
+    main .featured-products .product-box .product-text .price>span:nth-last-child(1){
+        background-color:salmon;
+        border-radius: 15px;
+        color: rgb(239 68 68);
+        font-weight: 100;
+        font-size: 16px;
+        padding: 6px 8px;
+        
+        
+        
+    }
+    main .featured-products button{
+        font-size: 18px;
+        font-weight: 600;
+        /* padding:15px  100px; */
+        width: 218px;
+        height: 52px;
+        margin:  3rem 0;
+        border-radius: 50px;
+        background-color: white;
+        border: 1px solid rgb(158, 158, 158);
+        
+    }
+    hr{
+        margin: 1rem auto;
+        color: rgb(158, 158, 158);
+    }
