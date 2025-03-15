@@ -266,8 +266,30 @@ header button{
         
     }
     hr{
-        margin: 1rem auto;
-        color: rgb(158, 158, 158);
+        margin: 1rem 0 0 0;
+        color:#ebedf3;
+    }
+    /* CSS for Dress styles */
+    main .dress-style-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 6rem;
+        border: none;
+        border-radius: 10px;
+        flex-direction: column;
+        padding: 2rem 0;
+        background-color:rgb(240,240,240);
+    }
+    main .dress-style-container>h1{
+        font-size: 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 3.5rem;
+    }
+    main .dress-style-container .dress-style .dress-box img{
+        margin : 3px;
+        
     }
 
     /* CSS for footer */
@@ -397,4 +419,8 @@ header button{
         margin: 10px;
         color: black;
 
+    }
+    footer hr{
+        width: 90%;
+        color: rgb(158, 158, 158);
     }
