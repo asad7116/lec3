@@ -215,6 +215,7 @@ header button{
     main .featured-products .product-box .product-text .rate-product{
         display: flex;
         align-items: center;
+        color: rgb(238, 187, 94);
 
     }
     main .featured-products .product-box .product-text .rate-product>p{
@@ -291,7 +292,45 @@ header button{
         margin : 3px;
         
     }
-
+/* CSS for customer reviews */
+main .review-container{
+   margin: 0 6rem;
+   padding:3rem 0 5rem 0 ;
+   /* border: 1px solid red; */
+}
+main .review-container>h1{
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: bold;
+    
+    
+}
+main .review-container .review-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid red; */
+    /* padding: 2rem 1rem; */
+    
+}
+main .review-container .review-box .review{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 27%;
+    border:1px solid #f0f0f0;
+    border-radius: 10px;
+    padding: 1.5rem ;
+}
+main .review-container .review-box .review h2{
+   font-weight: 600;
+}
+main .review-container .review-box .review p{
+   color: rgb(68, 67, 67);
+}
+main .review-container .review-box .review .rate-product i{
+    color: rgb(238, 187, 94);
+}
     /* CSS for footer */
 
     footer{
