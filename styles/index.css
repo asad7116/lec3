@@ -145,6 +145,16 @@ header button{
     main .hero-container .right-box{
         display: flex;
         justify-content: center;
-        width: 45%;
+        /* width: 45%; */
+        height: 100vh;
+        padding-bottom: 2rem;
+        padding-left: 2rem;
+    }
+    main .partners{
+        display: flex;
+        justify-content: space-between;
+        background: #000;
+        align-items: center;
         padding: 2rem;
     }
+    
